@@ -1,0 +1,41 @@
+{
+  "name": "battlereport",
+  "version": "1.0.0",
+  "description": "battle report h5 for tiyueApp! ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production --progress --hide-modules"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.4.2",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.0.3",
+    "node-sass": "^4.13.1",
+    "sass-loader": "^8.0.2",
+    "url-loader": "^4.0.0",
+    "vue-loader": "^15.9.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
